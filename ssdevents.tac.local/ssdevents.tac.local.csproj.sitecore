@@ -1,0 +1,39 @@
+﻿<Project>
+  <PropertyGroup>
+    <Site Server="http://ssdevents.tac.local" UserName="sitecore\admin" IsRemoteSitecore="False" />
+  </PropertyGroup>
+  <File Include="Views\TAC\Events\Layouts\Home.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{AF384FA8-68E9-4C8C-9B9D-891B6E6938C1}</Item>
+  </File>
+  <File Include="/Views/TAC/Events/Layouts/Home.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{AF384FA8-68E9-4C8C-9B9D-891B6E6938C1}</Item>
+  </File>
+  <File Include="Views\TAC\Events\Layouts\Events.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{98B531FF-6A9C-4C6A-AA97-B629FC2A2430}</Item>
+  </File>
+  <File Include="/Views/TAC/Events/Layouts/Events.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{98B531FF-6A9C-4C6A-AA97-B629FC2A2430}</Item>
+  </File>
+  <File Include="Views\TAC\Events\HomeContent.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{5A4B9C7C-9684-4EFA-B1CF-8043FA345E14}</Item>
+  </File>
+  <File Include="Views\TAC\Demo\Events.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0" />
+  <File Include="/Views/TAC/Demo/Events.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{492468C5-6FF3-474A-A3E6-47EEEC46A35B}</Item>
+  </File>
+  <File Include="Views\TAC\Demo\Demo.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0" />
+  <File Include="/Views/TAC/Demo/Demo.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{9158C19F-DC77-4EC3-A8E7-78D3AAD93227}</Item>
+  </File>
+  <File Include="/Views/TAC/Demo/Demo2.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{17CEE883-5063-4ACD-8CF6-8A5D342477BB}</Item>
+  </File>
+  <File Include="/Views/TAC/Demo/EventDemo.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{ABF64EE6-24ED-4FE4-9E10-9903CB3F563F}</Item>
+    <Item DatabaseName="master">{0B2941FA-B008-4EC4-AA87-940FE4A428B8}</Item>
+  </File>
+  <File Include="Views\TAC\Demo\DEDLayout.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0" />
+  <File Include="/Views/TAC/Demo/DEDLayout.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{B859F099-3C34-4EC1-93FA-A8FFF828E062}</Item>
+  </File>
+</Project>

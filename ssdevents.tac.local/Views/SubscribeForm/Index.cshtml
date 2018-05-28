@@ -1,0 +1,19 @@
+﻿@using TAC.Utils.Helpers
+@model ssdevents.tac.local.Models.SubscribeForm
+
+<!-- [Subscribe to mailing list] -->
+<div class="side-widget">
+    <h4 class="text-uppercase">@Model.Heading</h4>
+    <div class="sidebar">
+        <div class="text">@Model.Intro</div>
+        @using (Html.BeginForm())
+        {
+            @Html.FormHandler()
+            <div>
+                <input class="form-control" type="email" placeholder="your@email.com" name="email">
+            </div>
+            <input class="btn btn-default" type="submit" value="@Model.ButtonText">
+        }
+    </div>
+</div>
+<!-- [/Subscribe to mailing list] -->

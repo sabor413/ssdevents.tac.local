@@ -1,0 +1,31 @@
+﻿@using TAC.Utils.Helpers
+@using ssdevents.tac.local.Models
+@model EventsList
+
+<!-- [Event List] -->
+<div class="content-list newslist">
+    <ol class="media-list">
+        @foreach (var events in Model.Events)
+        {
+            <li class="media media-align-middle">
+                <div class="media media-align-middle">
+                    <a href="@events.Url">
+                        @events.EventImage
+                    </a>
+                </div>
+                <div class="media-body">
+                    <h3 class="media-heading">
+                        <a href="@events.Url">@events.ContentHeading</a>
+                    </h3>
+                    <div class="description">
+                        @events.ContentIntro
+                    </div>
+                </div>
+                <div class="metadata well">@events.EventStartDate.ToString("MMMM d, yyyy")</div>
+                @*June 23, 2016*@
+            </li>
+        }
+    </ol>
+</div>
+<!-- [Event List] -->
+@Html.Pager(Model.PageSize, Model.TotalResultCount)

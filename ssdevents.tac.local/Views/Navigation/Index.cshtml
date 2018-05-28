@@ -1,0 +1,23 @@
+﻿@model ssdevents.tac.local.Models.NavigationMenu
+@using ssdevents.tac.local.Models
+
+<h4><a href="@Model.URL">@Model.Title</a></h4>
+<div class="sidebar sidebar-static">
+    @RenderNavigation(Model.Children)
+</div>
+
+@helper RenderNavigation(IEnumerable<NavigationMenu> items)
+{
+    <ul class="nav nav-pills nav-stacked">
+        @foreach (var i in items)
+        {
+            <li class="@(i.Children!=null?"open":"close")">
+                <a href="@i.URL">@i.Title</a>
+                @if (i.Children != null)
+                {
+                    @RenderNavigation(i.Children)
+                }
+            </li>
+        }
+    </ul>
+}

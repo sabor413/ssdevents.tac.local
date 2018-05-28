@@ -1,0 +1,14 @@
+﻿@using Sitecore.Data.Fields
+@using Sitecore.Data.Items
+<h3>Skills</h3>
+@*@Html.Sitecore().Field("JobSkills")*@
+@{
+    MultilistField skillsField = Model.Item.Fields["JobSkills"];
+}
+
+<ul>
+    @foreach (Item skill in skillsField.GetItems())
+    {
+        <li>@skill.Name</li>
+    }
+</ul>

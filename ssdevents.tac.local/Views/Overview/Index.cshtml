@@ -1,0 +1,20 @@
+﻿@model ssdevents.tac.local.Models.OverviewList
+
+<!-- [Category List] -->
+<ul class="block-grid-md-4 block-grid-sm-3 block-grid-xs-1">
+    @foreach(var oItem in Model)
+    {
+        <li>
+            <div class="thumbnail">
+                <a href="@oItem.URL">
+                    @oItem.Image
+                </a>
+                <div class="caption">
+                    <h3 class="teaser-heading">@oItem.Title</h3>
+                    <a href="@oItem.URL" class="btn btn-default">@Model.ReadMore</a> 
+                </div>
+            </div>
+        </li>
+    }
+</ul>
+<!-- [Category List] -->

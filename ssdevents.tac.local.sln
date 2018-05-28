@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tac.utils", "..\..\Sitecore
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ssdevents.tac.test", "ssdevents.tac.test\ssdevents.tac.test.csproj", "{F6A48D5D-E4E3-4D26-B794-20E93A01E89D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ssdevents.tac.unicorn.deploy", "ssdevents.tac.unicorn.deploy\ssdevents.tac.unicorn.deploy.csproj", "{370AC9BF-897D-4DDF-97FF-1DB44A164FB4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{F6A48D5D-E4E3-4D26-B794-20E93A01E89D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6A48D5D-E4E3-4D26-B794-20E93A01E89D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6A48D5D-E4E3-4D26-B794-20E93A01E89D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{370AC9BF-897D-4DDF-97FF-1DB44A164FB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{370AC9BF-897D-4DDF-97FF-1DB44A164FB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{370AC9BF-897D-4DDF-97FF-1DB44A164FB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{370AC9BF-897D-4DDF-97FF-1DB44A164FB4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

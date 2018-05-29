@@ -113,7 +113,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\Include\Unicorn\Unicorn.Configs.Default.config" />
+    <Content Include="App_Config\Include\Unicorn\Unicorn.Configs.Default.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\PublishProfiles\ssdevent publish.pubxml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
